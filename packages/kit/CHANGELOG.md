@@ -1,5 +1,13 @@
 # @sveltejs/kit
 
+## 1.20.3
+
+### Patch Changes
+
+- fix: don't skip rest parameter's matcher when there is a non-matching optional parameter ([#10020](https://github.com/sveltejs/kit/pull/10020))
+
+- fix: ensure `fetch` respects headers from provided `Request` ([#10136](https://github.com/sveltejs/kit/pull/10136))
+
 ## 1.20.2
 
 ### Patch Changes
